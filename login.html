@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./register.css" /> -->
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+
+    <div id="Home">
+      <nav class="navbar">
+        <ul class="navbar-links">
+          <div class="navigate">
+            <li class="navbar-link">
+              <a href="./home.html" class="link-text">Home</a>
+            </li>
+            <li class="navbar-link">
+              <!-- <a href="#" class="link-text">Profile</a> -->
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="Login">
+      <div class="log-head"><h1 class="head">Login</h1></div>
+
+      <div class="login_items">
+        <div class="log-form">
+          <form onsubmit="event.preventDefault(), login()">
+            <div class="form-item">
+              <div class="Enter">Username</div>
+              <div class="input-head"></div>
+              <div class="input"><input id="Username" type="text" /></div>
+            </div>
+
+            <div class="form-item">
+              <div class="Enter">Email</div>
+              <div class="input-head"></div>
+              <div class="input"><input id="Email" type="text" /></div>
+            </div>
+
+            <div class="form-item">
+              <div class="Enter">Password</div>
+              <div class="input-head"></div>
+              <div class="input"><input id="Password" type="password" /></div>
+            </div>
+
+            <div class="btn">
+              <button onclick="login()" type="submit">login</button>
+            </div>
+          </form>
+          <div class="reg">
+            <a href="./index.html" class="link">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

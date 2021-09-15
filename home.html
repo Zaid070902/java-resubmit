@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body>
+    <div id="Home">
+      <nav class="navbar">
+        <ul class="navbar-links">
+          <div class="navigate">
+
+            <li class="navbar-link">
+              <a href="./index.html" class="link-text">Register</a>
+            </li>
+
+            <li class="navbar-link">
+              <a href="./login.html" class="link-text">Login</a>
+            </li>
+
+            <li class="navbar-link">
+              <a href="./home.html" class="link-text">Home</a>
+            </li>
+            <li class="navbar-link">
+              <a href="./cart.html" class="link-text">Cart</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="page"><div id="container"></div></div>
+
+    <div>
+      <form class="form">
+        <input
+          type="text"
+          name="prod_name"
+          id="productName"
+          required
+          placeholder="Product name"
+        />
+        <input
+          type="text"
+          name="prod_price"
+          id="Price"
+          required
+          placeholder="Product price"
+        />
+        <input
+          type="text"
+          name="amount"
+          id="quantity"
+          required
+          placeholder="Amount"
+        />
+        <button onclick="event.preventDefault(), add()">ADD</button>
+      </form>
+    </div>
+
+    <script src="./products.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#Login {
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 50);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-head {
+  margin: 40px;
+  letter-spacing: 3px;
+}
+
+.form-item {
+  padding: 10px;
+}
+
+input {
+  width: 500px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(0, 0, 50);
+  background-color: rgb(200, 200, 200);
+  border-bottom: 1px solid rgb(0, 0, 50);
+}
+
+button {
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(200, 200, 200);
+  border: 1px solid rgb(0, 0, 50);
+  color: rgb(0, 0, 50);
+  letter-spacing: 3px;
+}
+
+button:hover {
+  color: rgb(0, 0, 50);
+  transition: 1s;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.reg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  /* text-decoration: none; */
+  color: rgb(0, 0, 50);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  background: rgb(0, 0, 50);
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+  font-weight: 200;
+  box-shadow: 0 5px 20px rgb(0, 0, 50);
+}
+
+.link-text {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.navigate {
+  margin: 50px;
+  display: flex;
+  gap: 30px;
+}
